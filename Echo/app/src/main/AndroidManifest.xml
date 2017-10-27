@@ -21,9 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
         <activity
             android:name=".MixMusicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PagerActivity"
             android:screenOrientation="portrait" />
     </application>
 
